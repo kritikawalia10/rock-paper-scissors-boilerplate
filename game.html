@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Game Page</title>
+</head>
+<body>
+    <div class="score-board">
+      <div id="num1">0</div>
+      <div>-</div>
+      <div id="num2">0</div>
+    </div>
+   <div id="content">
+    <div id="you">
+      <div class="your">You</div>
+      <div id="hand">
+        <img height="240px" src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/paper-hand.png?raw=true" id="paperhand">
+      </div>
+      <div id="left">
+        <img width="80" height="80" src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/rock-logo.png?raw=true" id="rock" class="buttons"/>
+        <img width="80" height="80"src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/paper-logo.png?raw=true"id="paper" class="buttons">
+        <img width="80" height="80"src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/scissors-logo.png?raw=true" id="scissors"class="buttons">
+      </div>
+    </div>
+    <div class="versus">
+      <img height="400px" src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/vs.png?raw=true" >
+
+    </div>
+    <div id="computer">
+      <div class="computers">Comp</div>
+      <div id="hand2">
+        <img height="240px" src="https://github.com/kritikawalia10/rock-paper-scissors-boilerplate/blob/main/assets/paper-hand.png" alt="" id="paperhand2">
+      </div>
+    </div>
+   </div>
+        <div class="footer">
+          <h2 id="won">You <span id="wons"> </span>the game</h2>
+          <div class="button">
+            <button type="button" id="playagain">Play Again</button>
+          </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

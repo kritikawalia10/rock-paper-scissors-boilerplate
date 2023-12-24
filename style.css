@@ -1,0 +1,92 @@
+body{
+    background-image: url("https://github.com/Kalvium-Program/rock-paper-scissors-boilerplate/blob/main/assets/bg.png?raw=true");
+    background-size: cover;
+}
+h1{
+    color: rgb(90,37,192);
+    font-family: 'Poppins';
+    font-size: 70px;
+    text-align: center;
+}
+.image{
+    height: 490px;
+    padding-left: 20%;
+}
+.play{
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    padding-right: 60px;
+}
+.a{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.start{
+    height: 40px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.your{
+    font-size: white;
+    font-size: 30px;
+    text-align: center;
+}
+.computers{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#you{
+    border: 2px solid #ffc434;
+    width: 350px;
+}
+#computer{
+    border: 2px solid #ffc434;
+    width: 350px;
+}
+#left{
+    display: flex;
+    justify-content: space-evenly;
+}
+#hand1,#hand2{
+    height: 250px;
+}
+#playagain{
+    visibility: hidden;
+    font-size: 30px;
+    background-color: #ffc434;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 90px;
+    padding-bottom: 100px;
+}
+#won{
+    font-size: 30px;
+    align-items: center;
+    visibility: hidden;
+    color: white;
+    text-align: center;
+}
+
